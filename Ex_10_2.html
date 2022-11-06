@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="Q_2.CSS">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></scri pt>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular- route.js"></script>
+<script>
+var app=angular.module("myApp",['ngRoute']); app.config(function($routeProvider){
+$routeProvider.when('/2091',{ templateUrl:'2091.html'
+})
+.when('/2092',{ templateUrl:'2092.html'
+})
+.when('/2106',{ templateUrl:'2106.html'
+})
+.when('/20111',{ templateUrl:'20111.html'
+})
+
+});
+</script>
+</head>
+<body ng-app="myApp">
+<div class="sidebar" width="20%">
+<h2>REGISTER NUMBERS</h2>
+<a href="#!2091"><b>URK20CS2091</b></a>
+<a href="#!2092"><b>URK20CS2092</b></a>
+<a href="#!2106"><b>URK20CS2106</b></a>
+<a href="#!20111"><b>URK20CS20111</b></a>
+</div>
+<div class="content" ng-view></div>
+</body>
+  <body>
+    <h2>JOEL</h2>
+<br><br>
+<P>
+<b>Register Number: </b>URK20CS2091
+<br>
+<b>Course: </b>BTech Computer Science and Engineering (Specialization in Artificial Intelligence)
+<br>
+<b>Year of Duration: </b>2020 - 2024
+</P>
+<h2>HERMES</h2>
+<br><br>
+<P>
+<b>Register Number: </b>URK20CS2092
+<br>
+<b>Course: </b>BTech Computer Science and Engineering (Specialization in Artificial Intelligence)
+<br>
+<b>Year of Duration: </b>2020 - 2024
+</P>
+h2>SATHISH</h2>
+<br><br>
+<P>
+<b>Register Number: </b>URK20CS2106
+<br>
+<b>Course: </b>BTech Computer Science and Engineering (Specialization in Artificial Intelligence)
+<br>
+<b>Year of Duration: </b>2020 - 2024
+</P>
+<h2>RAJ</h2>
+<br><br>
+<P>
+<b>Register Number: </b>URK20CS20111
+<br>
+<b>Course: </b>BTech Computer Science and Engineering (Specialization in Artificial Intelligence)
+<br>
+<b>Year of Duration: </b>2020 - 2024
+</P>
+  </body>
+</html>
